@@ -5,7 +5,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 import java.io.ByteArrayOutputStream
 
 plugins {
-    id("org.jetbrains.intellij.platform") version "2.6.0"
+    id("org.jetbrains.intellij.platform") version "2.11.0"
     kotlin("jvm") version "2.1.20"
 
 }
@@ -20,7 +20,7 @@ repositories {
 
 dependencies {
     intellijPlatform {
-        webstorm("2025.1")
+        webstorm("2025.2")
         bundledPlugin("com.intellij.css")
 
         // Add verification tools (instrumentationTools() is deprecated and removed)
