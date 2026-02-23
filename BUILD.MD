@@ -53,13 +53,3 @@ Log into the JetBrains Marketplace and upload the plugin zip file located in `bu
 ```bash
 ./gradlew runIde
 ```
-
-## CI/CD Integration (not implemented - yet)
-```yaml
-- name: Verify Plugin
-  run: ./gradlew verifyPlugin
-
-- name: Check for Deprecations
-  run: ./gradlew check --warning-mode all
-```
-
