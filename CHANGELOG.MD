@@ -3,6 +3,11 @@
 All notable changes to this project will be documented in this file.
 The format follows [Keep a Changelog](https://keepachangelog.com/) and semantic-versioning.
 
+## [1.7.0] – 2026-02-24
+
+### Changed
+- **IDEs compatibility:** Make the plugin compatible with more IDEs
+
 ## [1.6.0] – 2025-06-20
 
 ### Added
